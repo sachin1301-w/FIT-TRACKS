@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: ai-service
+  config:
+    import: optional:configserver:http://localhost:8888
+#
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017/airecommendationfitness
+#      database: airecommendationfitness
+#
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#    consumer:
+#      group-id: activity-processor-group
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+#      properties:
+#        spring.json.use.type.headers: false
+#        spring.json.value.default.type: com.fitness.aiservice.model.Activity
+#        spring.json.trusted.packages: "*"
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#
+#kafka:
+#  topic:
+#    name: activity-events
+#groq:
+#  api:
+#    url: https://api.groq.com/openai/v1/chat/completions
+#    key: ${GROQ_API_KEY}
+#server:
+#  port: 8083

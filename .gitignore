@@ -1,0 +1,17 @@
+# Frontend dependencies and build output
+Downloads/microservices/fitness-frontend/node_modules/
+Downloads/microservices/fitness-frontend/dist/
+
+# Spring Boot build output
+Downloads/microservices/fitness-microservice/**/target/
+Downloads/microservices/fitness-microservice/**/.idea/
+
+# IDE and local files
+**/.idea/
+**/.vscode/
+**/*.iml
+
+# Local archives and secrets
+Downloads/microservices/fitness-microservice/*.zip
+**/.env
+**/.env.*
